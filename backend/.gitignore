@@ -1,0 +1,40 @@
+# ── Python cache ───────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Environment / secrets ──────────────────────────────────
+.env
+.env.*
+*.env
+
+# ── Database (runtime data, not source) ────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Uploaded user files ────────────────────────────────────
+uploads/
+
+# ── Virtual env (if placed inside backend/) ────────────────
+venv/
+.venv/
+
+# ── Distribution / packaging ───────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+site-packages/
+
+# ── Testing ────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── OS & editor ────────────────────────────────────────────
+.DS_Store
+.idea/
+.vscode/

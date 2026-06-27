@@ -1,0 +1,29 @@
+# ── Python virtual environment ─────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Environment / secrets ──────────────────────────────────
+.env
+.env.*
+*.env
+
+# ── OS & editor ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Claude Code internals ──────────────────────────────────
+.claude/
+
+# ── Docs & assets not meant for repo ──────────────────────
+*.doc
+*.docx
+prompt.md
+prompt2.md
+login_page.jpg
+logo.jpg
